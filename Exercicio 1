@@ -1,0 +1,53 @@
+<?php
+
+$sigla = array("ES", "MG", "RJ", "SP");
+
+$estado = array("Espírito Santo", "Minas Gerais", "Rio de Janeiro", "São Paulo");
+
+foreach($sigla as $s => $valor){
+
+echo $s." - ".$valor."\n";
+
+}
+
+foreach($estado as $e => $valor){
+
+echo $e." - ".$valor."\n";
+
+}
+
+echo "\n";
+
+$estados = array("ES" => "Espírito Santo", "MG" => "Minas Gerais", "RJ" => "Rio de Janeiro", "SP" => "São Paulo");
+
+foreach($estados as $es => $valor){
+
+echo $es." - ".$valor."\n";
+
+}
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
