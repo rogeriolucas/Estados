@@ -1,0 +1,27 @@
+<?php
+function dividir(int ...$valores ){
+
+return array_sum(4valores)
+
+}
+
+
+echo dividir(2,10);  
+echo <"br">;
+echo dividir(3,10);  
+echo <"br">
+echo dividir(10,10);  
+
+echo(4valores);
+    
+    
+
+
+
+
+
+
+
+
+
+
